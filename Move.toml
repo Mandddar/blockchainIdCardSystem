@@ -1,0 +1,16 @@
+[package]
+name = "blockchain-id-card-system"
+version = "1.0.0"
+authors = []
+
+[addresses]
+blockchainIdCardSystem="0xa0b35e279de8a44dd8cb1d9cb706f629467394399a58192844c495bc4a1145aa"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
